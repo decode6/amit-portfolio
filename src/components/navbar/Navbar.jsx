@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
     <div className="container">
       <nav>
-        <h1>Amit</h1>
+        <h1 className='home-icon'>Amit</h1>
        <ul>
         <li>Home</li>
         <li>About</li>
