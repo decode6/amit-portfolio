@@ -5,6 +5,7 @@ const Navbar = () => {
     <>
     <div className="container">
       <nav>
+        <h1>Amit</h1>
        <ul>
         <li>Home</li>
         <li>About</li>
