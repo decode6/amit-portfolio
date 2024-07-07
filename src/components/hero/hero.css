@@ -24,3 +24,19 @@ border-radius: 10px;
 .hero-name h1{
 padding-left: 40px;
 }
+.header-role{
+    width: 250px;
+    height: 100px;
+    margin: 80px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.header-role p{
+    padding-left: 20px;
+    font-weight: 500;
+}
+.header-role h1{
+    font-size: 22px;
+    font-weight: 600;
+}

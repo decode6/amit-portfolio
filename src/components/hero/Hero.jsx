@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css';
 import hii from '../../assets/hii.png';
+import hero_image from '../../assets/hero-img.png';
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -16,6 +17,9 @@ const Hero = () => {
           <p>Full Stack Developer</p>
         </div>
     
+    </div>
+    <div className="hero-img">
+      <img src={hero_image} alt="" />
     </div>
     </div> 
     </div>
