@@ -11,6 +11,10 @@ const Hero = () => {
             <p>Hi, I'm</p>
             <h1>Amit</h1>
         </div>
+        <div className="header-role">
+          <h1>Software Engineer</h1>
+          <p>Full Stack Developer</p>
+        </div>
     
     </div>
     </div> 
