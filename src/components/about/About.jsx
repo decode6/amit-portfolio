@@ -17,7 +17,7 @@ const About = () => {
             I am a proud alumni of RV College of Engineering, Bangalore, India, where I pursued Masters of Computer Applications.
             Beyond my professional and academic endeavors, I am an enthusiast of competitive coding. Tackling intricate problems not only stimulates my intellect but also fortifies my problem-solving abilities. My curiosity about emerging technologies is unceasing, motivating me to delve into new realms of innovation and knowledge.Coding and learning new things are part of my life. These creative outlets offer a balance to my technical pursuits and serve as vehicles for self-expression. I am also an avid traveler, fueled by an adventurous spirit that seeks to explore diverse cultures and places, enriching my perspectives.Gaming is another facet of my interests, offering an immersive world that fuels my imagination and creativity.In a nutshell, my journey has been a tapestry of academic excellence, professional growth and personal passions, all contributing to a well-rounded individual committed to continuous learning and enrichment.</p>
         </div>
-        <div className="img">
+        <div className="amit-img">
 
         </div>
       </div>

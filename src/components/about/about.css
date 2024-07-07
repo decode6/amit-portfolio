@@ -1,7 +1,7 @@
 .about-section{
     width: 100%;
     height: 100vh;
-    padding: 10px 10%;
+    padding: 10px 2%;
 }
 
 .about-text{
@@ -23,6 +23,7 @@ hr {
 }
 .about-description{
     display: flex;
+    justify-content: space-around;
     padding-top:50px;
 }
 .desc-text{
@@ -30,4 +31,9 @@ hr {
 }
 .desc-text p{
 line-height: 1.5;
+}
+.amit-img{
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
