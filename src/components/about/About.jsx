@@ -5,7 +5,10 @@ const About = () => {
     <div className='about-section'>
       <div className="about-text">
          About
-         <hr />
+         <span>
+          <hr />
+         </span>
+         
       </div>
      
 
