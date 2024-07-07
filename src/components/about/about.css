@@ -1,6 +1,7 @@
 .about-section{
     width: 100%;
     height: 100vh;
+    padding: 10px 10%;
 }
 
 .about-text{
@@ -19,4 +20,14 @@ hr {
     font-size: 30px;
     font-weight: 600;
     color: #0209C2;
+}
+.about-description{
+    display: flex;
+    padding-top:50px;
+}
+.desc-text{
+    max-width: 600px;
+}
+.desc-text p{
+line-height: 1.5;
 }
