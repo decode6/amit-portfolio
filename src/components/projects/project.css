@@ -1,25 +1,30 @@
-.project-section{
+.project-section {
     padding-top: 60px;
-height: 100vh;
+    height: 100vh;
 }
-.project-text{
+
+.project-text {
     display: flex;
     justify-content: center;
 }
-.project-text h1{
+
+.project-text h1 {
     font-size: 40px;
 }
-.project-category{
+
+.project-category {
     margin: 40px 0px;
 }
-.project-category ul{
+
+.project-category ul {
     display: flex;
     list-style-type: none;
     justify-content: center;
     gap: 50px;
 }
-.project-category ul li{
-   
+
+.project-category ul li {
+
     padding: 7px 16px;
     display: flex;
     align-items: center;
