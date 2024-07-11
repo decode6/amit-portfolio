@@ -28,7 +28,9 @@ hr {
     padding-top:50px;
 }
 .desc-text{
-    max-width: 600px;
+  
+    width: 600px;
+   text-align: justify;
 }
 .desc-text p{
 line-height: 1.5;
