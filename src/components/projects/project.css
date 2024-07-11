@@ -1,10 +1,13 @@
 .project-section{
-    padding-top: 70px;
+    padding-top: 60px;
 height: 100vh;
 }
 .project-text{
     display: flex;
     justify-content: center;
+}
+.project-text h1{
+    font-size: 40px;
 }
 .project-category{
     margin: 40px 0px;
@@ -21,5 +24,5 @@ height: 100vh;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: rgb(198, 248, 248);
 }
