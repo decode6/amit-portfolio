@@ -1,8 +1,12 @@
 import React from 'react'
-
+import './project.css'
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='project-section'>
+           <div className="project-text">
+            <h1>My Creative Projects Section</h1>
+           </div>
+    </div>
   )
 }
 
