@@ -1,6 +1,15 @@
 import React from 'react'
 import './project.css'
 const Projects = () => {
+
+  const cardData = [
+    { title: 'Card 1', description: 'This is the description for card 1.' },
+    { title: 'Card 2', description: 'This is the description for card 2.' },
+    { title: 'Card 3', description: 'This is the description for card 3.' },
+  ];
+
+
+
   return (
     <div className='project-section'>
            <div className="project-text">
@@ -16,6 +25,14 @@ const Projects = () => {
               <li>HTML&CSS</li>
               <li>JavaScript</li>
             </ul>
+           </div>
+           <div className="project-card">
+           {cardData.map((data, index) => (
+            <div className="project-card">
+              key={index} {data.title} description={data.description} 
+            </div>
+         
+      ))}
            </div>
     </div>
   )
