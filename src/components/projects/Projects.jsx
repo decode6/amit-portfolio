@@ -5,7 +5,7 @@ const Projects = () => {
   const cardData = [
     { title: 'Card 1', description: 'This is the description for card 1.' },
     { title: 'Card 2', description: 'This is the description for card 2.' },
-    { title: 'Card 3', description: 'This is the description for card 3.' },
+    { title: 'Card 3', description: 'This is the description for card 3.',link: "www.google.com" },
   ];
 
 
@@ -27,12 +27,15 @@ const Projects = () => {
             </ul>
            </div>
            <div className="project-card">
-           {cardData.map((data, index) => (
-            <div className="project-card">
+       
+    {cardData.map((data, index) => (
+            <div className="project">
               key={index} {data.title} description={data.description} 
             </div>
          
       ))}
+         
+       
            </div>
     </div>
   )
