@@ -1,0 +1,12 @@
+.skill-section{
+    height: 100vh;
+    padding:60px 10%;
+  
+}
+.skill-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
