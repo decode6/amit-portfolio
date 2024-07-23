@@ -4,9 +4,14 @@
   
 }
 .skill-text{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.skill-text p{
+    font-size: 18px;
+    font-weight: 500;
 }
