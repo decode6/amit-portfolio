@@ -1,11 +1,13 @@
 import React from 'react'
 import './project.css'
+import quote from '../../assets/quote.png'
 const Projects = () => {
 
   const cardData = [
-    { title: 'Card 1', description: 'This is the description for card 1.' ,link: "https://www.google.com"},
-    { title: 'Card 2', description: 'This is the description for card 2.',link: "https://www.google.com" },
-    { title: 'Card 3', description: 'This is the description for card 3.',link: "https://www.google.com" },
+    { title: 'Card 1',link: "https://www.google.com"},
+    { title: 'Card 2',link: "https://www.google.com" },
+    { title: 'Card 3', link: "https://www.google.com" },
+    { title: 'Card 4',link: "https://www.google.com" },
   ];
 
 
@@ -30,7 +32,11 @@ const Projects = () => {
        
     {cardData.map((data, index) => (
             <a href={data.link} key={index} className="project">
-               {data.title} description={data.description} 
+              <div className="project-img">
+                <img src={quote} alt="" />
+              </div>
+              
+               <h2>{data.title}</h2> 
             </a>
                     
       ))}

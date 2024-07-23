@@ -1,6 +1,7 @@
 .project-section {
     height: 100vh;
     padding:60px 10%;
+    background: #edf2f8;
 }
 
 .project-text {
@@ -28,15 +29,38 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
-    background-color: #c6f8f8;
+    background-color: #ffffff;
 }
 .project-card{
     display: flex;
     justify-content: space-between;
 }
 .project{
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 295px;
     background-color: aqua;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+.project-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 220px;
+    background: red;
+}
+.project-img img{
+    width: 210px;
+    height: 295px;
+    
 }
