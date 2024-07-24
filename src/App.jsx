@@ -9,13 +9,13 @@ import Social from './components/social/Social'
 const App = () => {
   return (
     <>
-    
+   
      <Navbar/>
      <Hero/>
      <About/>
      <Projects/>
      <Skills/>
-<Social/>
+ <Social/>
     </>
   )
 }
