@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css';
+import withSocialIcons from '../social/withSocialIcons';
 import hii from '../../assets/hii.png';
 import hero_image from '../../assets/hero-img.png';
 const Hero = () => {
@@ -28,4 +29,4 @@ const Hero = () => {
   )
 }
 
-export default Hero;
+export default withSocialIcons(Hero);
