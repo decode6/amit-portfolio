@@ -9,13 +9,13 @@ import Layout from './components/social/Layout'
 const App = () => {
   return (
     <>
-   <Layout>
-     <Navbar/>
-     <Hero/>
-     <About/>
-     <Projects/>
-     <Skills/>
- </Layout>
+      <Layout>
+        <Navbar />
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+      </Layout>
     </>
   )
 }
