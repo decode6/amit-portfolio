@@ -10,6 +10,7 @@ import Certifications from './components/certifications/Certifications'
 const App = () => {
   return (
     <>
+  
       <Layout>
         <Navbar />
         <Hero />
@@ -17,7 +18,7 @@ const App = () => {
         <Projects />
         <Skills />
         <Certifications/>
-      </Layout>
+      </Layout> 
     </>
   )
 }
