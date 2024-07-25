@@ -32,7 +32,10 @@
     background-color: #ffffff;
     cursor: pointer;
 }
-
+ul li:hover{
+    color: #fafafa; /* Adjust the hover color as needed */
+    background: #0209C2;
+}
 .project-card{
     display: flex;
     justify-content: space-between;
@@ -47,10 +50,14 @@
     align-items: center;
     flex-direction: column;
 }
+.project-card a{
+    text-decoration: none;
+}
 .project h2{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    font-size: 20px;
    
 }
 .project-img{
