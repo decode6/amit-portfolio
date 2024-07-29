@@ -9,8 +9,12 @@
     justify-content: center;
     align-items: center;
 }
+.cert-text h1{
+    font-size: 40px;
+}
 .cert-text h1 span{
-    color: #f7b733;
+    font-size: 40px;
+    color: #0209C2;
 }
 
 .cert-main{
