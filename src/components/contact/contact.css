@@ -7,3 +7,30 @@
     display: flex;
     justify-content: center;
 }
+.contact-text h1{
+    font-size: 42px;
+}
+.contact-text span{
+    color: #0209C2;
+}
+.messenger{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.gmail{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 340px;
+    height: 80px;
+    gap: 15px;
+    background: #ea4f4f;
+    color: aliceblue;
+    border-radius: 10px
+}
+.gmail img{
+    width: 35px;
+}
