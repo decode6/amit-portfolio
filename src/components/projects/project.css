@@ -10,7 +10,11 @@
 }
 
 .project-text h1 {
-    font-size: 40px;
+    font-size: 42px;
+}
+.project-text h1 span{
+  color: #0209C2;
+  
 }
 
 .project-category {

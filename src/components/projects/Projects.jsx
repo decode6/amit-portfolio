@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div className='project-section'>
       <div className="project-text">
-        <h1>My Creative Projects Section</h1>
+        <h1>My Creative <span>Projects</span>  Section</h1>
       </div>
       <div className="project-category">
         <ul>
