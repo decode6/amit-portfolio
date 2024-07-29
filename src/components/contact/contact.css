@@ -57,10 +57,11 @@
     width: 800px;  
     height: 150px;
     background: #edf2f8;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 20px;
     border-radius: 10px;
+    outline: none;
 }
 .input button{
     width: 180px;
