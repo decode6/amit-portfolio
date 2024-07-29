@@ -1,7 +1,7 @@
 .social-icons { 
     position: fixed;
     left: 30px; /* Adjust as needed */
-    top: 65%;
+    top: 70%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -15,8 +15,8 @@
     justify-content: center;
     border-radius: 50%;
     border: 1px solid #d4cece;
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     background: rgb(255, 251, 251);
     color: #525252; /* Adjust the color as needed */
     font-size: 20px; /* Adjust the size as needed */

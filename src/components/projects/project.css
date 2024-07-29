@@ -32,7 +32,7 @@
     background-color: #ffffff;
     cursor: pointer;
 }
-ul li:hover{
+.project-category ul li:hover{
     color: #fafafa; /* Adjust the hover color as needed */
     background: #0209C2;
 }
