@@ -9,12 +9,20 @@
     justify-content: center;
     align-items: center;
 }
+.cert-text h1 span{
+    color: #f7b733;
+}
+
 .cert-main{
     display: flex;
     margin-top: 50px;
     gap: 120px;
 }
 .cert-links{
-    width: 500px;
-    background: red;
+    padding: 10px 90px 10px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.cert-links h1{  
+    font-size: 16px;
 }

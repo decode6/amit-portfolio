@@ -4,7 +4,7 @@ const Certifications = () => {
   return (
     <div className='certifications-section'>
       <div className="cert-text">
-        <h1>My Education & Certifications</h1>
+        <h1>My <span>Education</span> & <span>Certifications</span></h1>
       </div>
       <div className="cert-main">
         <div className="education">
@@ -23,7 +23,7 @@ const Certifications = () => {
         </div>
         <div className="certifications">
           <div className="cert-links">
-          <h1>Ultimate Next.js 14 Course</h1>
+          <h1>Ultimate Next.js 14 Course </h1>
         <p>JS Mastery Pro</p>
         <p>Issue Date: 2023-12-22</p>
           </div>
