@@ -16,7 +16,11 @@
     font-size: 40px;
     color: #0209C2;
 }
-
+.certification-header{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
 .cert-main{
     display: flex;
     margin-top: 50px;

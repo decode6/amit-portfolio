@@ -21,11 +21,18 @@ const Certifications = () => {
           <p>Mar 2010 (Class X) </p>
           <p>+2 Boys High School, Sabour, Bhagalpur. <br />Bihar School Examination Board,</p>
         </div>
-        <div className="certifications">
+        <div className="certification-header">
           <div className="cert-links">
           <h1>Ultimate Next.js 14 Course </h1>
         <p>JS Mastery Pro</p>
         <p>Issue Date: 2023-12-22</p>
+        
+          </div>
+          <div className="cert-links">
+          <h1>Ultimate Next.js 14 Course </h1>
+        <p>JS Mastery Pro</p>
+        <p>Issue Date: 2023-12-22</p>
+        
           </div>
      
         </div>
