@@ -34,3 +34,40 @@
 .gmail img{
     width: 35px;
 }
+.input{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    gap: 30px;
+}
+.input input{
+    width: 800px;
+    height: 60px;
+    background: #edf2f8;
+    color: #000000;
+    border: none;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input textarea{
+    width: 800px;  
+    height: 150px;
+    background: #edf2f8;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input button{
+    width: 180px;
+    padding: 18px;
+    color: white;
+    background: #0209C2;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
