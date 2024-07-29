@@ -1,0 +1,11 @@
+.certifications-section{
+    height: 100vh;
+    background: #edf2f8;
+    padding:60px 10%;
+    
+}
+.cert-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
