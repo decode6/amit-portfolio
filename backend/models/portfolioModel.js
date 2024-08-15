@@ -6,11 +6,11 @@ const introSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    firstName:{
+    firstName: {
         type: String,
         required: true,
     },
-    lastName:{
+    lastName: {
         type: String,
         required: true,
     },
@@ -25,11 +25,11 @@ const aboutSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    firstName:{
+    firstName: {
         type: String,
         required: true,
     },
-    lastName:{
+    lastName: {
         type: String,
         required: true,
     },
@@ -45,11 +45,11 @@ const experienceSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    year:{
+    year: {
         type: String,
         required: true,
     },
-    period:{
+    period: {
         type: String,
         required: true,
     },
@@ -64,11 +64,11 @@ const projectSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    description:{
+    description: {
         type: String,
         required: true,
     },
-    title:{
+    title: {
         type: String,
         required: true,
     },
@@ -84,11 +84,11 @@ const certificationSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    author:{
+    author: {
         type: String,
         required: true,
     },
-    issuedate:{
+    issuedate: {
         type: String,
         required: true,
     },
@@ -98,3 +98,11 @@ const certificationSchema = new mongoose.Schema({
     },
 
 });
+
+module.exports = {
+    Intro: mongoose.model("Intros", introSchema),
+    About: mongoose.model("abouts", aboutSchema),
+    Experience: mongoose.model("experience", experienceSchema),
+    Projects: mongoose.model("projects", projectSchema),
+    Certification: mongoose.model("certification", certificationSchema),
+}
